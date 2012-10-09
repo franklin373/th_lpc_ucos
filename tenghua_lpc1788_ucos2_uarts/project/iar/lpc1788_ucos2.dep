@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1826597697</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_i2s.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_mci.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_mcpwm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_nvic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_pinsel.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_pwm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_qei.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_ssp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_wwdt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_LPC177x_8x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cpu_c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_flag.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mbox.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mutex.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_q.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_sem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_task.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_tmr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_LPC177x_8x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cpu_a.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_hooks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task3.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task4.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task5.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_time.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\app_hooks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\task7.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc1788_ucos2.pbd</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm3.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_clkpwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_dac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_eeprom.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_emc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpdma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_i2s.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_mci.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_mcpwm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_nvic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_pinsel.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_pwm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_qei.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_ssp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_wwdt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_LPC177x_8x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cpu_c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_core.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_flag.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mbox.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mutex.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_q.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_sem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_task.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_time.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_tmr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\lpc1788_ucos2.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_systick.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task3.o</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task1.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task2.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task4.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\task5.o</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_uart.h</file>
+      <file>$PROJ_DIR$\..\..\app\app_hooks.c</file>
+      <file>$PROJ_DIR$\..\..\app\main.c</file>
+      <file>$PROJ_DIR$\..\..\app\app_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\app\os_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\app\task1.c</file>
+      <file>$PROJ_DIR$\..\..\app\task1.h</file>
+      <file>$PROJ_DIR$\..\..\app\task2.c</file>
+      <file>$PROJ_DIR$\..\..\app\task2.h</file>
+      <file>$PROJ_DIR$\..\..\app\task3.c</file>
+      <file>$PROJ_DIR$\..\..\app\task3.h</file>
+      <file>$PROJ_DIR$\..\..\app\task4.c</file>
+      <file>$PROJ_DIR$\..\..\app\task4.h</file>
+      <file>$PROJ_DIR$\..\..\app\task5.c</file>
+      <file>$PROJ_DIR$\..\..\app\task5.h</file>
+      <file>$PROJ_DIR$\..\..\app\task6.c</file>
+      <file>$PROJ_DIR$\..\..\app\task6.h</file>
+      <file>$PROJ_DIR$\..\..\app\task7.c</file>
+      <file>$PROJ_DIR$\..\..\app\task7.h</file>
+      <file>$PROJ_DIR$\..\..\bsp\uart.c</file>
+      <file>$PROJ_DIR$\..\..\bsp\uart.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\CoreSupport\core_cm3.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\CoreSupport\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\CoreSupport\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\CoreSupport\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_adc.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_can.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_clkpwr.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_crc.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_dac.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_eeprom.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_emc.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_gpdma.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_i2s.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_mci.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_mcpwm.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_nvic.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_pinsel.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_qei.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_ssp.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_systick.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_timer.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_uart.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_wwdt.c</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Core\CM3\DeviceSupport\NXP\LPC177x_8x\startup\iar\startup_LPC177x_8x.s</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_clkpwr.h</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_pinsel.h</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_a.asm</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_c.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_core.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_flag.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_mbox.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_mem.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_mutex.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_q.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_sem.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_task.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_time.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_tmr.c</file>
+      <file>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\ucos_ii.h</file>
+      <file>$PROJ_DIR$\..\history.txt</file>
+      <file>$PROJ_DIR$\Debug\Obj\task6.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\task7.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_dac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_crc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_can.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_eeprom.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\core_cm3.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_clkpwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_emc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_exti.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpdma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc177x_8x_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\cmsis\Drivers\include\lpc177x_8x_can.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\app_hooks.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 107 2 128 125 97 95 88 101 102 91 45 127 46 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 95 88 101 102 91 45 49 47 48 87 1 97 90 128 125 127 46 126 42 93 168 106 107 2 109 111 113 115 117 119 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 95 88 101 102 91 45 49 87 89 47 128 125 97 127 46 126 1 168 106 107 2 123 103 42 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 95 88 101 102 91 45 49 87 89 47 128 125 97 127 46 126 168 106 107 2 123 103 42 111</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 95 88 101 102 91 45 49 87 89 47 128 125 97 127 46 126 168 106 107 2 123 103 42 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 95 88 101 102 91 45 49 87 89 47 128 125 97 127 46 126 168 106 107 2 123 103 42 115</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task5.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 95 88 101 102 91 45 49 87 89 47 128 125 97 127 46 126 168 106 107 2 123 103 42 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 95 88 101 102 91 45 49 87 89 47 128 125 97 127 46 126 168 106 107 2 123 103 42 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\task7.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 95 88 101 102 91 45 49 47 93 128 125 97 127 46 126 42 168 106 107 2 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\bsp\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 95 88 101 102 91 45 49 47 48 87 103 128 125 97 127 46 126 42 93 155 154 1 168 106 107 2 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Core\CM3\CoreSupport\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 95 88 101 102 91 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 128 125 97 95 88 101 102 91 45 127 46 126 42 154 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 128 125 97 95 88 101 102 91 45 127 46 126 42 154 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_clkpwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_emc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_gpdma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_i2s.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_mci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_mcpwm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_nvic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_pinsel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_qei.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_ssp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Drivers\source\lpc177x_8x_wwdt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\cmsis\Core\CM3\DeviceSupport\NXP\LPC177x_8x\startup\iar\startup_LPC177x_8x.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_core.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_flag.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_mbox.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_mem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_q.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_sem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_task.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_time.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\ucos2\uCOS-II\Source\os_tmr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
